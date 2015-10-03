@@ -11,6 +11,7 @@ module.exports = {
 
     Promise.all([googleSearch(query), bingSearch(query)]).then(function(results){
       console.log("results:", results);
+      response.send(results);
     });
 
     // googleSearch(query).then(function(results) {
