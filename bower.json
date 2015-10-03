@@ -1,0 +1,21 @@
+{
+  "name": "searchengine",
+  "main": "index.js",
+  "version": "0.0.1",
+  "authors": [
+    "Melanie Gin <melaniegin1@gmail.com>"
+  ],
+  "description": "Search Engine allows users to input a search query and displays a list of results aggregated from Yahoo, Google, and Microsoft.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

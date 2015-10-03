@@ -1,0 +1,15 @@
+{
+  "name": "searchengine",
+  "version": "0.0.1",
+  "description": "Search Engine allows users to input a search query and displays a list of results aggregated from Yahoo, Google, and Microsoft.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Melanie Gin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.64.0"
+  }
+}
