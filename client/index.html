@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Search Engine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <h1>Pulling results from Google, Yahoo, and Bing</h1>
-  <form id="search-form">
-    <input type="text" id="search-query" placeholder="Enter search query" />
-    <input type="submit" value="Go">
-  </form>
+  <h1>Search results from Google, Yahoo, and Bing</h1>
+  <h2>Search for your query:</h2>
+  <section id="form">
+    <form id="search-form">
+      <input type="text" id="search-query" placeholder="Enter search query" />
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <!-- <input type="submit" value="Go"> -->
+    </form>
+  </section>
+  <section id="results">
+  </section>
+
   <script src="bower_components/underscore/underscore.js"></script>
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="main.js"></script>
